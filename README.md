@@ -29,13 +29,13 @@ colorscheme mojave
 ```
 Restart vim and everything should work.
 
-A better (but slightly more complicated) option is to git clone this repository somewhere in your disk and create a symlink from the `termschool.vim` file inside your working repository to `~/.vim/colors`.
+A better (but slightly more complicated) option is to git clone this repository somewhere in your disk and create a symlink from the `mojave.vim` file inside your working repository to `~/.vim/colors`.
 
 ## Caveats
 
 Please note that this theme *requires* a 256-color capable terminal. Most popular terminals are 256-color capable these days, but if things look odd, your terminal might not have this capability.
 
-If you know your terminal is 256-color capable and things still look ugly/weird, try adding the following to your `~/.vimrc` file right before the `colorscheme termschool` line:
+If you know your terminal is 256-color capable and things still look ugly/weird, try adding the following to your `~/.vimrc` file right before the `colorscheme` line:
 
 ```VimL
 set t_Co=256                                                                                        
